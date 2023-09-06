@@ -1,0 +1,43 @@
+.headerbox{
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    font-family: sans-serif;
+}
+.headerbox div{
+    flex: 1;
+}
+.headerupper{
+    display: flex;
+    flex-direction: row;
+}
+.headerupper div{
+    flex: 1;
+}
+.headerupperleft{
+    font-size: 40px;
+}
+.headerupperright{
+    display:flex;
+    flex-direction: row;
+}
+.headerupperright div{
+    flex: 1;
+}
+.headerlower{
+    display: flex;
+    flex-direction: row;
+}
+.headerlower div{
+    flex: 1;
+}
+.headerlowerleft{
+    display: flex;
+    flex-direction: column;
+}
+.headerlowerleft div{
+    flex: 1;
+}
