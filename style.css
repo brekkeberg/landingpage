@@ -1,3 +1,7 @@
+.headerwide{
+    display: flex;
+    flex-direction: row;
+}
 .headerbox{
     background-color: #1f2937;
     color: #f9faf8;
@@ -5,7 +9,7 @@
     display: flex;
     flex-direction: column;
     height: 500px;
-    font-family: sans-serif;
+    font-family: 'Roboto';
 }
 .headerbox div{
     flex: 1;
@@ -18,11 +22,17 @@
     flex: 1;
 }
 .headerupperleft{
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    padding: 10px;
 }
 .headerupperright{
     display:flex;
     flex-direction: row;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 10px;
 }
 .headerupperright div{
     flex: 1;
