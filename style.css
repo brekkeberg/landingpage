@@ -1,14 +1,17 @@
 .headerwide{
     display: flex;
     flex-direction: row;
-}
-.headerbox{
+    height: 500px;
     background-color: #1f2937;
     color: #f9faf8;
+}
+.headerwide div{
+    flex: 1 1 auto;
+}
+.headerbox{
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 500px;
     font-family: 'Roboto';
 }
 .headerbox div{
