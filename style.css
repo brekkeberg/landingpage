@@ -1,17 +1,21 @@
 .page{
     display: flex;
     flex-direction: column;
-    height: 1000px;
     font-size: 15px;
     font-family: "roboto";
     width: 1000px; 
     margin: auto;
 }
 .page div{
-    flex:  1 auto;
+    flex: 1 1 auto;
     border: 0px solid black;
     margin: 4px;
 }
+.page .top{
+    margin-top: 0px;
+    height: 300px;
+}
+
 .top{
     display: flex;
     flex-direction: column;
@@ -80,9 +84,10 @@
     margin-bottom: 10px;
 }
 
-.topmidmidup{
+.boldtxt{
     font-size: 30px;
     font-weight: 800;
+    margin: 0px;
 }
 .middle{
     display:flex;
@@ -146,6 +151,7 @@
 
 
 .bottom{
+    height: 250px;
     background-color: lightgray;
     color: black;
     font-size: 25px;
@@ -163,8 +169,47 @@ button{
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
+    font-size: 15px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid white;
+    box-shadow: 1px 1px;
+    
+}
+button:hover {
+    background-color: #71a4f5;
+}
+button:active{
+    background-color: #71a4f5;
+    box-shadow: inset -1px -1px;
 }
 .quoted{
     text-align: right;
     font-size: 15px;
 }
+.base{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.base div{
+    flex: 1 1 0%;
+    width: 700px;
+    margin: auto;
+}
+.base .basemid{
+    background-color:#3882f6;
+    border: 2px solid gray;
+    flex: 1.5 1 0%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.base .basemid div{
+    flex: 1 1 0%;
+    text-align: center;
+}
+
+
