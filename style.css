@@ -1,118 +1,170 @@
-button{
-    background-color: #3882f6;
-    border-radius: 5px;
-    color: white;
-    font-size: 14px;
-    padding: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: 700px;
-}
-.fullpage{
-    height: 1200px;
-    display:flex;
-    flex-direction: column;
-}
-.fullpage div{
-    flex: 1 1 auto;
-}
-.fullpage_top{
-    display: flex;
-    flex-direction: row;
-    height: 400px;
-    background-color: #1f2937;
-    color: #f9faf8;
-}
-.fullpage_top div{
-    flex: 1 1 auto;
-}
-.headerbox{
-    text-align: center;
+.page{
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto';
-}
-.headerbox div{
-}
-.headerupper{
-    display: flex;
-    flex-direction: row;
-}
-.headerupper div{
-    flex: 1;
-}
-.headerupperleft{
-    font-size: 23px;
-    font-weight: 600;
-    text-align: left;
-    padding-top: 10px;
-}
-.headerupperright{
-    display:flex;
-    flex-direction: row;
-    font-weight: 300;
+    height: 1000px;
     font-size: 15px;
-    padding-top: 10px;
+    font-family: "roboto";
+    width: 1000px; 
+    margin: auto;
+}
+.page div{
+    flex:  1 auto;
+    border: 0px solid black;
+    margin: 4px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+}
+.top div{
+    flex: 1 1 0%;
+}
+.toptop{
+    display: flex;
+    flex-direction: row;
+}
+.toptop div{
+    flex: 1 1 0%;
+}
+.toptop .toptopleft,.toptop .toptopright{
+    flex: 3 1 0%;
+}
+.toptop .toptopleft{
+    font-weight: 600;
+    font-size: 20px;
+}
+.toptop .toptopright{
+    display: flex;
+    flex-direction: row;
     text-align: right;
 }
-.headerupperright div{
-    flex: 1;
+.toptopright{
+    font-weight: 300;
+    font-size: 12px;
 }
-.headerlower{
-    display: flex;
-    flex-direction: row;
-    flex: 5 1 0;
-}
-.headerlower div{
-    flex: 1;
-}
-.headerlowerleft{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-.headerlowerleft div{
-    flex: 1;
-}
-.headerlowerleftsubbig{
-    font-size: 40px;
-    font-weight: 800;
-}
-.headerlowerleftsubsub{
-    font-size: 15px;
-}
-.headerlowerright{
-    background-color: gray;
-    padding: 20px;
-    display: flex;
-}
-.headerlowerright div{
-    flex: 1;
-}
-.fullpage_middleup{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.toptopright a{
+    color: white; 
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    font-style:normal;
 }
 
-.fullpage_middleup div{
-    flex: 1 1 auto;
+.top .topmid{
+    display:flex;
+    flex-direction: row;
+    flex: 3 1 0%;
 }
-.fullpage_middleup_mid{
+.topmid div{
+    flex: 1 1 0%;
+}
+.topmid .topmidmid2,.topmid .topmidmid1{
+    flex: 3 1 0%;
+    height: 170px;
+}
+.topmidmid2{
     display: flex;
     flex-direction: row;
 }
-.fullpage_middleup_mid div{
-    flex: 1 1 auto;
-    margin: 50px;
-    border: 3px solid #3882f6;
-    border-radius: 10px;
-    height: 150px;
+.topmidmid2 div{
+    flex: 1;
 }
-.fullpage_middlelow{
-    background-color: gray;
+.topmidmid2 img{
+    width: 350px;
+    height: auto;
+    border: 2px solid white;
 }
-.fullpage_bottom{
-    background-color: white;
+.topmidmid1 div{
+    margin-bottom: 10px;
+}
+
+.topmidmidup{
+    font-size: 30px;
+    font-weight: 800;
+}
+.middle{
+    display:flex;
+    flex-direction: column;
+}
+.middle div{
+    flex: 1 1 0%;
+}
+
+.midtop p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.middle .midmid{
+    flex: 3 1 0%;
+    display: flex;
+    flex-direction: row;
+}
+.midmid div{
+    flex: 1 1 0%;
+}
+.midmid .midmidmid{
+    display: flex;
+    flex-direction: column;
+    flex: 3 1 0%
+}
+.midmidmid div{
+    flex: 1 1 0%;
+}
+.midmidmid .midmidmidtop{
+    flex: 3 1 0%;
+    height: 500px;
+}
+
+.midmidmid .midmidmidtop div{
+    height: 120px;
+}
+
+.midmidmidtop, .midmidmidbottom{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0%;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+}
+
+.midmidmidtop div{
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    flex: 1 1 0%;
+    display: flex
+}
+
+.midmidmidtop div .midpic{
+    width: 110px;
+    flex: 1;
+}
+
+
+.bottom{
+    background-color: lightgray;
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+.bottom div{
+    width: 550px;
+    flex: 1 1 0%;
+    margin: auto;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+}
+.quoted{
+    text-align: right;
+    font-size: 15px;
 }
