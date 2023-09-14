@@ -19,7 +19,7 @@ img, button{
 }
 button{
     font-size: min(15px, 3vw);
-    background-color: #FC9D9A;
+    background-color: #E08E79;
     border-radius: 5px;
     border: 1px solid white;
     padding: 4px;
@@ -27,7 +27,7 @@ button{
     padding-right: 2%;
 }
 button:hover{
-    background-color: #FE4365;
+    background-color: #774F38;
 }
 .m{
     margin-left: 12vw;
@@ -57,7 +57,7 @@ button:hover{
     padding-top: 3px;
 }
 .p1{
-    background-color: #83AF9B;
+    background-color: #C5E0DC;
 }
 .p1 .m .content{
     display: flex;
@@ -103,7 +103,7 @@ button:hover{
     text-align: center;
 }
 .p3{
-    background-color:  #C8C8A9;
+    background-color:  #ECE5CE;
 }
 .p3 .m{
     margin-left: 17vw;
@@ -126,7 +126,8 @@ button:hover{
     background-color: white;
 }
 .p4 .signbox{
-    background-color: #FC9D9A;
+    background-color: #F1D4AF;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
     margin-left: 20vw;
     margin-right: 20vw;
     margin-top: 3vw;
